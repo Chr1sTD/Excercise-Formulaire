@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Contact {
+    margin-bottom: 30px;
+}
+
+#Contact p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#Contact div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#Contact label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+#Contact input[type="text"],
+#Contact input[type="email"],
+#Contact select {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#Paiement {
+    border: 2px black solid;
+}
+
+
+

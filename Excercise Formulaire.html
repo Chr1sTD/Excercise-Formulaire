@@ -3,14 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulaire</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
 <form action="" method="get">
   <h1>Formulaire de paiement</h1>
-
-  <p> Information de contact </p>
-  <label for="Nom">Nom: </label>
-  <input type="text" id="Nom" name="Nom">
+  <section id="Contact">
+      <p> Information de contact </p>
+      <div>
+          <label for="Nom">Nom: </label>
+          <input type="text" id="Nom" name="Nom">
+      </div>
+      <div>
+          <label for="Courriel">Courriel: </label>
+          <input type="text" id="Courriel" name="courriel">
+      </div>
+      <div>
+          <label for="Province">Province</label>
+          <select name="province" id="Province">
+              <option value="Quebec">Quebec</option>
+              <option value="Alberta">Alberta</option>
+              <option value="Ontario">Ontario</option>
+          </select>
+      </div>
+  </section>
+  <section id="Paiement">
+      <p>Information de paiement</p>
+      <div>
+          <label> Type de paiement:</label>
+          <input type="radio" id="PaiementVisa" name="visa">
+          <label for="PaiementVisa">Visa </label>
+          <input type="radio" id="PaiementMaster" name="visa">
+          <label for="PaiementMaster">MasterCard</label>
+          <input type="radio" id="PaiementAmerican" name="visa">
+          <label for="PaiementAmerican">American Express</label>
+      </div>
+      <div>
+          <label for="NumeroCarte">Numero</label>
+          <input type="text" id="NumeroCarte" name="NumeroCarte">
+      </div>
+  </section>
+  <section id="LivraisonStyle">
+      <p>Informations de livraison</p>
+      <div>
+          <input type="checkbox" id="Signature" name="Signature">
+          <label for="Signature">Signature Requise</label>
+      </div>
+      <div>
+          <input type="checkbox" id="Livraison" name="Livraison">
+          <label for="Livraison">Livrer a la meme adresse que l'adresse de paiement</label>
+      </div>
+  </section>
+  <section id="Boutton">
+      <div>
+          <button type="submit">Envoyer</button>
+          <button type="reset">Annuler</button>
+      </div>
+  </section>
 </form>
 </body>
 </html>
