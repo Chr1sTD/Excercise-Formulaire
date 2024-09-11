@@ -36,7 +36,27 @@ h1 {
 }
 
 #Paiement {
+    padding: 15px;
     border: 2px black solid;
+}
+
+#Contact{
+    border: 2px black solid;
+}
+
+#LivraisonStyle {
+    padding: 5px;
+    border: 2px black solid;
+    margin: 20px 0px
+}
+
+#Boutton {
+    text-align: center;
+    font-size: 16px;
+}
+
+#Paiement p {
+    
 }
 
 
